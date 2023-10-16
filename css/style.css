@@ -7,7 +7,6 @@
 body {
   position: relative;
   width: 1440px;
-  height: 900px;
   font-family: "Chivo", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -17,28 +16,35 @@ body {
 
 .heading-primary {
   margin-bottom: 24px;
+  font-weight: 300;
   color: #ffffff;
   font-size: 52px;
   line-height: 62px; /* 119.231% */
   text-transform: uppercase;
+  font-style: normal;
 }
 .heading-primary-green {
   color: #54e6af;
 }
 
 .access {
+  position: relative;
   margin: 130px 0 0 165px;
 }
 .access__logo {
-  margin-bottom: 201px;
+  position: absolute;
+  line-height: 0px;
+  top: 0;
   transform: translateY(-50%);
 }
 .access__logo-img {
   height: 56px;
 }
+.access__logo-margin {
+  height: 131px;
+}
 .access__container {
   width: 723px;
-  height: 509px;
   padding: 88px 58px 0 0;
   background-color: #121725;
 }
@@ -52,7 +58,6 @@ body {
 }
 .access__form {
   position: relative;
-  margin-bottom: 64px;
   border-radius: 28px;
   width: 427px;
 }
@@ -68,6 +73,9 @@ body {
 .access__form-input::placeholder {
   color: rgba(255, 255, 255, 0.5019607843);
 }
+.access__form-input:focus {
+  outline: none;
+}
 .access__form-btn {
   position: absolute;
   top: 0;
@@ -79,6 +87,18 @@ body {
   border-radius: 28px;
   background-color: #54e6af;
   box-shadow: 0px 2px 4px 0px rgba(84, 230, 175, 0.14);
+}
+.access__form-btn:hover {
+  background-color: #b3ffe2;
+  box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.2);
+}
+.access__form-erorr-message {
+  visibility: hidden;
+  margin: 8px 0 0 32px;
+  color: #fb3e3e;
+  font-size: 12px;
+  line-height: normal;
+  margin-bottom: 42px;
 }
 .access__media {
   width: 536px;
