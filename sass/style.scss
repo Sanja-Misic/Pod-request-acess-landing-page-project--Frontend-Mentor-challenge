@@ -116,12 +116,15 @@ body {
     }
 
     &-erorr-message {
-      visibility: hidden;
       margin: 8px 0 0 32px;
       color: #fb3e3e;
       font-size: 12px;
       line-height: normal;
       margin-bottom: 42px;
+
+      &--hidden {
+        visibility: hidden;
+      }
     }
   }
   &__media {
