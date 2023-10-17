@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site] (https://sanja-misic.github.io/Pod-request-acess-landing-page-project--Frontend-Mentor-challenge/)
+- Live Site URL: [live site](https://sanja-misic.github.io/Pod-request-acess-landing-page-project--Frontend-Mentor-challenge/)
 
 ## My process
 
