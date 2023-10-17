@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/destktop-first-solution-Z65mJ9eyxt))
 - Live Site URL: [live site](https://sanja-misic.github.io/Pod-request-acess-landing-page-project--Frontend-Mentor-challenge/)
 
 ## My process
