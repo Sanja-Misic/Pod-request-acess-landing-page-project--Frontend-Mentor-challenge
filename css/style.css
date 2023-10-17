@@ -19,7 +19,7 @@ body {
   font-weight: 300;
   color: #ffffff;
   font-size: 52px;
-  line-height: 62px; /* 119.231% */
+  line-height: 62px;
   text-transform: uppercase;
   font-style: normal;
 }
@@ -56,7 +56,7 @@ body {
   color: #c2cbe5;
   font-size: 18px;
   font-weight: 400;
-  line-height: 28px; /* 155.556% */
+  line-height: 28px;
 }
 .access__form {
   position: relative;
@@ -209,7 +209,7 @@ body {
     width: 100%;
     margin-bottom: 33px;
     font-size: 15px;
-    line-height: 25px; /* 155.556% */
+    line-height: 25px;
   }
   .access__form {
     border-radius: 28px;
